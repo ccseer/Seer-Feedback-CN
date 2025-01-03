@@ -2,7 +2,8 @@
 ### 反馈步骤
 1. 点击 [此处](https://github.com/ccseer/Seer-Feedback-CN/issues)
 2. 先在搜索栏查找是否有相关内容，没有则进入下一步
-   - ![image](https://github.com/user-attachments/assets/59ee4b12-68cb-4b94-815c-8a482899b0ea)
+   - ![image](https://github.com/user-attachments/assets/2d55554a-f493-465e-8984-638353bc899d)
+
 4. 找到右侧 `New Issue`
 5. 在新页面写入详细反馈后提交
    - 为避免重复***多次*** **来回**沟通，请尽可能的提供详细信息以节省时间
