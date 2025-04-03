@@ -1,38 +1,35 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: ''
+about: 用于中文用户反馈 Seer 使用中的问题
+title: "\U0001F41E 问题反馈"
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+### 🐞 问题描述
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+请简要描述你遇到的问题。
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+### 📷 截图或屏幕录制（如果有）
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+上传相关截图或屏幕录制，帮助我们更好地理解问题。
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+### 🖥️ 系统信息
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+- Seer 版本：
+- Windows 版本：
+- 是否为管理员权限运行：
+- 是否使用第三方工具（如自定义资源管理器）：
 
-**Additional context**
-Add any other context about the problem here.
+### 🔁 重现步骤
+
+请提供可重现问题的步骤：
+
+1. 打开 Seer
+2. ...
+3. 出现错误
+
+---
+
+🙏 感谢你的反馈！
