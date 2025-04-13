@@ -1,0 +1,5 @@
+site_name: Seer Documentation
+nav:
+  - Home: Home.md 
+theme:
+  name: mkdocs
