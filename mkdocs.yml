@@ -1,4 +1,4 @@
-site_name: Seer Wiki
+site_name: Seer - A Windows Quick Look Tool
 nav:
   - Home: index.md
   - 添加插件: 1.-如何添加插件.md
