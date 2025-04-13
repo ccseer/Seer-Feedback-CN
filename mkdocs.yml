@@ -16,3 +16,7 @@ theme:
     - navigation.tabs
   hide:
     - versions
+  palette:
+    scheme: slate
+    primary: blue
+    accent: light blue
