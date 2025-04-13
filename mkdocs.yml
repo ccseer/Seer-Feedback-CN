@@ -12,8 +12,6 @@ nav:
   - 杂项: 9.-杂项.md
 theme:
   name: material
-  features:
-    - navigation.tabs
   hide:
     - versions
   palette:
