@@ -1,5 +1,5 @@
 site_name: Seer Documentation
 nav:
-  - Home: Home.md 
+  - Home: index.md 
 theme:
   name: mkdocs
