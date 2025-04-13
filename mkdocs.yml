@@ -11,4 +11,8 @@ nav:
   - 自定义配置文件路径: 8.-自定义配置文件路径.md
   - 杂项: 9.-杂项.md
 theme:
-  name: mkdocs
+  name: material
+  features:
+    - navigation.tabs
+  hide:
+    - versions
