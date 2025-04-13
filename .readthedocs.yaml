@@ -21,4 +21,7 @@ python:
    install:
    - requirements: docs/requirements.txt
       
-      
+
+readthedocs:
+  configuration: true
+  badge: false
