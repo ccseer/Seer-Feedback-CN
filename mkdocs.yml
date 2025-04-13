@@ -1,5 +1,7 @@
-site_name: Seer Documentation
+site_name: Seer Wiki
 nav:
   - Home: index.md 
+  - 添加插件: 1.-如何添加插件.md
+  - 使用控制栏启动程序: 2.-如何使用控制栏启动程序.md
 theme:
   name: mkdocs
