@@ -11,7 +11,7 @@ nav:
   - 自定义配置文件路径: 8.-自定义配置文件路径.md
   - 杂项: 9.-杂项.md
   - 更新日志:
-      - Home: changelog/index.md
+      - Index: changelog/index.md
       - 4.0.0: changelog/4.0.0.md
 theme:
   name: material
