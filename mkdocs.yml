@@ -13,6 +13,7 @@ nav:
   - 更新日志:
       - Index: changelog/index.md
       - 4.0.0: changelog/4.0.0.md
+      - 4.0.1: changelog/4.0.1.md
 theme:
   name: material
   hide:
