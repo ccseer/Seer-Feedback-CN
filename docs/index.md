@@ -1,6 +1,21 @@
-- 🐧 QQ 群：`1035353839`
-- 📖 常见问题解答可以在侧边栏找到。
-- 🐞 发现了 Bug？
-    - 请访问这里：[问题反馈](https://github.com/ccseer/Seer-Feedback-CN/issues)
-- 💡 还有其他问题？
-    - 请访问这里：[讨论区](https://github.com/ccseer/Seer-Feedback-CN/discussions)
+-   🐧 QQ 群：`1035353839`
+-   📖 常见问题解答可以在侧边栏找到。
+-   🐞 发现了 Bug？ [问题反馈](https://github.com/ccseer/Seer-Feedback-CN/issues)
+-   💡 还有其他问题？ [讨论区](https://github.com/ccseer/Seer-Feedback-CN/discussions)
+
+### ✨ 主要功能
+
+-   **轻松应对极端文件体积**  
+    秒开超大压缩包、多 GB 文本文件，或包含上万页的 PDF，无压力预览。
+-   **高度可定制**  
+    支持插件、脚本、自定义控制栏，自由打造你的工作流。
+-   **预览内容可复制**  
+    所见即所得 —— 文本、图片，甚至视频帧都可以直接复制。
+-   **强大的格式兼容性**  
+    支持数百种文件格式：视频、音频、图片、Markdown、Office 文档、文件夹、网页等。
+-   **轻量高效**  
+    即便处理大文件也占用极低内存，适合日常使用和高强度多任务环境。
+-   **界面美观，支持深色模式**  
+     简洁现代的界面设计，在浅色和深色主题下都非常出色。
+-   **极致流畅**  
+    在 Windows 上实现极致的速度与响应能力，Simply the best in its class.
