@@ -12,6 +12,7 @@ nav:
   - 杂项: 9.-杂项.md
   - 更新日志:
       - Index: changelog/index.md
+      - 4.1.0: changelog/4.1.0.md
       - 4.0.4: changelog/4.0.4.md
       - 4.0.3: changelog/4.0.3.md
       - 4.0.2: changelog/4.0.2.md
