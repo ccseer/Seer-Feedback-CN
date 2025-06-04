@@ -1,9 +1,10 @@
-# _sidebar.md
-    - Index: changelog/index.md
-    - 4.1.1: changelog/4.1.1.md
-    - 4.1.0: changelog/4.1.0.md
-    - 4.0.4: changelog/4.0.4.md
-    - 4.0.3: changelog/4.0.3.md
-    - 4.0.2: changelog/4.0.2.md
-    - 4.0.1: changelog/4.0.1.md
-    - 4.0.0: changelog/4.0.0.md
+<!-- docs/_sidebar.md -->
+
+- 📘 文档总览
+  - [首页](README.md)
+  - [快速开始](QuickStart.md)
+  - [常见问题](FAQ.md)
+
+- ⚙️ 使用技巧
+  - [插件开发](PluginDev.md)
+  - [快捷键说明](Shortcuts.md)
