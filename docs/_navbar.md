@@ -1,5 +1,4 @@
 <!-- docs/_navbar.md -->
 
-- [首页](/README.md)
-- [GitHub](https://github.com/ccseer/Seer-Feedback-CN)
-- [关于 Seer](https://1218.io)
+- [文档](/README.md)
+- [首页](https://1218.io)
