@@ -19,4 +19,4 @@
 - **界面美观，支持深色模式**  
    简洁现代的界面设计，在浅色和深色主题下都非常出色。
 - **极致流畅**  
-  在 Windows 上实现极致的速度与响应能力，Simply the best in its class.
+  在 Windows 上实现极致的速度与响应能力，<u>**Simply the best in its class.**</u>
