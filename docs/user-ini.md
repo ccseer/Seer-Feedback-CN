@@ -27,12 +27,12 @@
 - `video_remember_playback_pos`: 是否保存视频播放记录，true/false
 - `audio_extra_support`: 同 [PDF - extra_support]
 - `video_extra_support`: 同 [PDF - extra_support]
-- `window_size` 用于单独设置特定模块的预览大小， _[0.01, 0.95]_
+- `window_size` 用于单独设置特定模块的预览大小， _[0.01, 0.99]_
   - 默认值 `1`: auto-sizing
   - 实际结果会介于 **程序硬编码的最小窗口大小** 和 **设置-高级-最大预览大小** 之间
   - 比如对于文本模块，程序默认会基于字体大小和实际预览内容返回一个大小。假如 [Text] 组的这个值设置为了 0.9，程序将不再基于内容动态计算，而是每次返回同一个值： 0.9 \* 屏幕大小。
 - `exclude`: 用于排除内置文件类型的预览
-  - 大小写不敏感，多个后缀名用逗号分隔：`extra_support = xps, eps`
+  - 大小写不敏感，多个后缀名用逗号分隔：`exclude = xps, eps`
   - 设置成功后，在 **设置 > 类型** 中不显示该后缀名，并且在预览时不会加载该类型的文件
 
 ##### [PDF]
