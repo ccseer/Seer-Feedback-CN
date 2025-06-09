@@ -23,17 +23,20 @@
 ##### [Media]
 
 - `decoders:` 视频解码方式，"MFT:d3d=11", D3D11, DXVA, CUDA, FFmpeg, dav1d
-- `audio_extra_support`: 额外音频文件后缀名支持
-- `video_extra_support`: 额外视频文件后缀名支持
 - `log`: 是否生成视频预览的解码日志文件，true/false
 - `show_mute_button`: 控制栏是否显示静音按钮，true/false
 - `show_time_indication`: 控制栏是否显示时间指示器，true/false
 - `audio_remember_playback_pos`: 是否保存音频播放记录，true/false
 - `video_remember_playback_pos`: 是否保存视频播放记录，true/false
+- `audio_extra_support`: 同 [PDF - extra_support]
+- `video_extra_support`: 同 [PDF - extra_support]
 - `window_size` 用于单独设置特定模块的预览大小， _[0.01, 0.95]_
   - 默认值 `1`: auto-sizing
   - 实际结果会介于 **程序硬编码的最小窗口大小** 和 **设置-高级-最大预览大小** 之间
   - 比如对于文本模块，程序默认会基于字体大小和实际预览内容返回一个大小。假如 [Text] 组的这个值设置为了 0.9，程序将不再基于内容动态计算，而是每次返回同一个值： 0.9 \* 屏幕大小。
+- `exclude`: 用于排除内置文件类型的预览
+  - 大小写不敏感，多个后缀名用逗号分隔：`extra_support = xps, eps`
+  - 设置成功后，在 **设置 > 类型** 中不显示该后缀名，并且在预览时不会加载该类型的文件
 
 ##### [PDF]
 
@@ -41,15 +44,22 @@
 - `show_outline_button`:  控制栏是否显示大纲按钮，true/false
 - `show_sidebar_left`:  是否将侧边栏放到左边
 - `window_size`： 同 [Media - window_size]
+- `exclude`: 同 [Media - exclude]
+- `extra_support`: 额外的后缀名支持
+  - 当确定文件可以被 PDF 模块预览但不在默认支持格式列表中时，添加到此处可告知 Seer 进行尝试。
+  - 大小写不敏感，多个后缀名用逗号分隔：`extra_support = xps, eps`
+  - 若和其他预览器的后缀名重复，Seer 会根据 **设置 > 类型** 中的预览器排列顺序进行加载
+  - 设置成功后，在 **设置 > 类型** 中会显示该后缀名
 
 ##### [Text]
 
-- `extra_support`: 额外文本文件后缀名支持
 - `view_threshold`: 文件大小阈值，小于这个值的文本会有语法高亮和换行等功能，大于这个值得会使用纯文本显示以保证流畅性和稳定性
 - `line_threshold`: 单行最大字数，当单行字数过大时，界面会有明显卡顿
 - `minimap_scale`: 缩略图内容缩放系数，范围为 [0.5, 2.0]，默认为 1.0
 - `custom_font`: 自定义字体 family name，需要该字体已安装到本机
 - `window_size`： 同 [Media - window_size]
+- `extra_support`: 同 [PDF - extra_support]
+- `exclude`: 同 [Media - exclude]
 - `custom_theme` 设置文本代码高亮主题
   - 默认情况, Seer 基于当前软件颜色使用 `"GitHub Dark"` 或者 `"GitHub Light"`。
   - "Atom One Dark", "Atom One Light", "Breeze Dark", "Breeze Light", "Catppuccin Frappé", "Catppuccin Latte", "Catppuccin Macchiato", "Catppuccin Mocha", "Dracula", "Falcon", "GitHub Dark", "GitHub Light", "Homunculus", "Monokai", "Nord", "Oblivion", "Printing", "Radical", "Solarized Dark", "Solarized Light", "Tokyo Night", "Tokyo Night Light", "Tokyo Night Storm", "VSCodium Dark", "Vim Dark", "ayu Dark", "ayu Light", "ayu Mirage", "gruvbox Dark", "gruvbox Light"
@@ -57,14 +67,23 @@
 
 ##### [Image]
 
-- `raw_extra_support`: 额外 raw 图片文件后缀名支持
 - `max_read_size`: 文件大小阈值，当文件大小大于此值，程序仅加载预览大小（当前可显示的宽和高），不会加载完整的图片大小
 - `use_internal_exif_reader`：用于读取 jpg 的元数据，当脚本模块安装 exif 后，功能会重复，可将此字段设置为 false 关闭内置 exif 功能
 - `accelerate`: 是否开启硬件加速渲染
 - `minimap_scale`: 缩略图内容缩放系数，范围为 [0.5, 2.0]，默认为 1.0
 - `window_size`： 同 [Media - window_size]
+- `raw_extra_support`: 同 [PDF - extra_support]
+- `exclude`: 同 [Media - exclude]
 
 ##### [WebView]
 
 - `markdown_use_heti`: 用于渲染 markdown，中文用户专属，没有指定自定义 css 时默认使用 [heti](https://github.com/sivan/heti)，true/false
 - `window_size`： 同 [Media - window_size]
+- `extra_support`: 同 [PDF - extra_support]
+- `exclude`: 同 [Media - exclude]
+
+##### [Folder]
+
+- `window_size`： 同 [Media - window_size]
+- `extra_support`: 同 [PDF - extra_support]
+- `exclude`: 同 [Media - exclude]
