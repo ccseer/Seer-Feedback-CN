@@ -22,7 +22,7 @@
 
 1. 使用微软账号登录  https://redeem.microsoft.com/
 2. 输入你的兑换码进行兑换
-3. 回到输桌面，按 <kbd>Win+E</kbd> 打开文件管理器，在地址栏入  `ms-windows-store://pdp/?productid=9PGVFJBVBZWX`，回车进入 Seer Pro 界面
+3. 回到桌面，按 <kbd>Win+E</kbd> 打开文件管理器，在地址栏入  `ms-windows-store://pdp/?productid=9PGVFJBVBZWX`，回车进入 Seer Pro 界面
 4. 下载，打开，使用。如果一切顺利，右键系统托盘的  Seer 图标，`关于 - 关于 Seer`, 版本号位置应该包含一个 `U` 字母，表示当前使用的是商店版。
 5. 由于商店的限制，每个兑换码都有时效性，购买后请及时兑换。具体可查看微软商店相关政策。
 
