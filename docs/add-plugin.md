@@ -34,3 +34,4 @@
 <!-- - [https://cowtransfer.com/s/86d5f7f17b7f4d](https://cowtransfer.com/s/86d5f7f17b7f4d) 点击链接查看 [ Seer Plugins ] ，或访问奶牛快传 cowtransfer.com 输入传输口令 etoxm1 查看； -->
 
 - [https://github.com/ccseer/Seer-Plugins/releases](https://github.com/ccseer/Seer-Plugins/releases)
+ - QQ 群（1035353839）群文件
