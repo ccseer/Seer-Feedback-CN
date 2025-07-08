@@ -18,7 +18,7 @@
 <img src="https://raw.githubusercontent.com/wiki/ccseer/Seer/res/2022-12-17-20-59-05.png" width="500">
 
 - 带有 `U`：表示您正在使用来自 [Microsoft Store](https://apps.microsoft.com/store/detail/seer-pro/9PGVFJBVBZWX?hl=zh-cn&gl=cn) 的版本。
-- 不带 `U`：表示这是从 [官网](http://1218.io) 下载的 Win32 版本。
+- 不带 `U`：表示这是从 [官网](http://1218.io) 下载的桌面版。
 - 带有 `+`：表示 Seer 以管理员权限运行。
 - 不带 `+`：表示 Seer 未以管理员权限运行。
 
