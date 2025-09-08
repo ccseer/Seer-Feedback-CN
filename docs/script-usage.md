@@ -19,12 +19,12 @@
 
     <img src="https://raw.githubusercontent.com/wiki/ccseer/Seer/res/2022-12-25-18-53-01.png" width="500">
 
-- ipynb - 预览 - OIT
+<!-- - ipynb - 预览 - OIT
 
     <img src="https://raw.githubusercontent.com/wiki/ccseer/Seer/res/2022-12-28-15-06-41.png" width="500">
 
 - epub - 预览 - 转换
 
-    <img src="https://raw.githubusercontent.com/wiki/ccseer/Seer/res/2022-12-28-21-38-33.png" width="500">
+    <img src="https://raw.githubusercontent.com/wiki/ccseer/Seer/res/2022-12-28-21-38-33.png" width="500"> -->
 
 ​
