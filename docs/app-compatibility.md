@@ -38,7 +38,7 @@
 
 #### 2.编程调用方式
 
-- [Integration with 3rd party software](https://github.com/ccseer/Seer/wiki/4.-Integration-with-3rd-party-software)
+- [Integration with 3rd party software](https://github.com/ccseer/Seer/wiki/Compatibility-with-Third%E2%80%90party-Applications)
 - 遇到兼容 Seer 的代码疑问可以直接发邮件
 
 ---
