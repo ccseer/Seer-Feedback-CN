@@ -16,6 +16,7 @@
 - `temp_file_expire_days`: 如果当前时间减去临时文件的创建时间大于这个值，此临时文件将在程序退出时被删除
 - `enable_esc_key`: 当主预览窗口可见时，是否使用 esc 键隐藏窗口，不论窗口是否有输入焦点，true/false
 - `load_cloud_files`: 是否加载离线文件，设置为 true 后程序会尝试完整加载，导致云盘将文件下载到本地
+- `titlebar_hide_separate_btn`: 是否隐藏标题栏的分离按钮，true/false
 - `loading_delay_ms`: 预览加载界面的延迟阈值，默认值为 200。
   - 小于 200 时，每次预览都会显示加载界面。
   - 大于等于 200 时，只有当下一个预览耗时超过该值才会显示加载界面，否则将直接跳过。
@@ -58,6 +59,7 @@
 - `line_threshold`: 单行最大字数，当单行字数过大时，界面会有明显卡顿
 - `minimap_scale`: 缩略图内容缩放系数，范围为 [0.5, 2.0]，默认为 1.0
 - `custom_font`: 自定义字体 family name，需要该字体已安装到本机
+- `remember_pos`: 是否记忆上次滚动位置，true/false
 - `window_size`： 同 [Media - window_size]
 - `extra_support`: 同 [PDF - extra_support]
 - `exclude`: 同 [Media - exclude]
@@ -79,6 +81,7 @@
 ##### [WebView]
 
 - `markdown_use_heti`: 用于渲染 markdown，中文用户专属，没有指定自定义 css 时默认使用 [heti](https://github.com/sivan/heti)，true/false
+- `show_save_as_pdf_btn`: 控制栏是否显示另存为 PDF 按钮，true/false
 - `window_size`： 同 [Media - window_size]
 - `extra_support`: 同 [PDF - extra_support]
 - `exclude`: 同 [Media - exclude]
