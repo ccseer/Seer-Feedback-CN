@@ -43,3 +43,15 @@
 5. 点击 `确定`。
 6. 点击控制栏中的刷新按钮，程序将调用 `7z.exe` 解压 zip 文件至刚刚填写的路径，即 `C:\Users\corey\Downloads\`。Amazing~
    - <img src="https://raw.githubusercontent.com/wiki/ccseer/Seer/res/2022-12-17-18-17-45.png" width="500">
+
+<br/>
+
+## 特殊匹配标记
+
+除了输入具体的扩展名后缀（如 `zip` 或 `png`）外，您还可以在扩展名输入框中使用以下特殊的内置标记：
+
+- `${type_folder}`：仅匹配 **文件夹/目录**。
+- `${type_file}`：匹配 **所有文件**（包含没有任何后缀名的文件）。
+- `${type_all}`：匹配 **所有内容**（同时匹配文件和文件夹/目录）。
+
+这些标记不区分大小写，并且可以与普通扩展名混合使用（以空格分隔）。例如，输入 `png jpg ${type_folder}` 时，该按钮将同时在 PNG 图片、JPG 图片和文件夹的控制栏上显示。

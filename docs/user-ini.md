@@ -15,8 +15,8 @@
 - `use_trigger_key_close`: 当主预览窗口有焦点时，是否使用空格键隐藏窗口，true/false
 - `temp_file_expire_days`: 如果当前时间减去临时文件的创建时间大于这个值，此临时文件将在程序退出时被删除
 - `enable_esc_key`: 当主预览窗口可见时，是否使用 esc 键隐藏窗口，不论窗口是否有输入焦点，true/false
-- `load_cloud_files`: 是否加载离线文件，设置为 true 后程序会尝试完整加载，导致云盘将文件下载到本地
 - `titlebar_hide_separate_btn`: 是否隐藏标题栏的分离按钮，true/false
+- `ignored_extensions`: 让 Seer 完全忽略特定后缀名文件的预览响应（按空格无反应）。大小写不敏感，用逗号或空格分隔，例如 `ignored_extensions = exe, msi`
 - `loading_delay_ms`: 预览加载界面的延迟阈值，默认值为 200。
   - 小于 200 时，每次预览都会显示加载界面。
   - 大于等于 200 时，只有当下一个预览耗时超过该值才会显示加载界面，否则将直接跳过。
@@ -42,9 +42,9 @@
 
 ##### [PDF]
 
-- `fit_width_at_first`: 是否默认显示页宽，true/false
-- `show_outline_button`:  控制栏是否显示大纲按钮，true/false
-- `show_sidebar_left`:  是否将侧边栏放到左边
+- `show_sidebar_button`: 控制栏是否显示侧边栏（大纲/缩略图/批注）按钮，true/false
+- `show_sidebar_left`:  是否将侧边栏放到左边，true/false
+- `fit_w` / `fit_h`: PDF 页面宽度/高度的默认渲染尺寸限制（像素），默认值为 `960`
 - `window_size`： 同 [Media - window_size]
 - `exclude`: 同 [Media - exclude]
 - `extra_support`: 额外的后缀名支持
@@ -91,3 +91,8 @@
 - `window_size`： 同 [Media - window_size]
 - `extra_support`: 同 [PDF - extra_support]
 - `exclude`: 同 [Media - exclude]
+
+##### [SystemViewer]
+
+- `exclude`: 同 [Media - exclude]，用于排除通过系统预览器（Windows 预览窗格组件）渲染的后缀名
+
