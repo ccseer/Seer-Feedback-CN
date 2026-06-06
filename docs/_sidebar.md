@@ -11,6 +11,7 @@
 - [📂 自定义配置文件路径](custom-config-path.md)
 - [📎 杂项](misc.md)
 - [🚩 更新日志](changelog/README.md)
+  - [4.4.2](changelog/4.4.2.md)
   - [4.4.1](changelog/4.4.1.md)
   - [4.4.0](changelog/4.4.0.md)
   - [4.3.3](changelog/4.3.3.md)
