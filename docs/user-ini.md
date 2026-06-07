@@ -36,6 +36,8 @@
   - 默认值 `1`: auto-sizing
   - 实际结果会介于 **程序硬编码的最小窗口大小** 和 **设置-高级-最大预览大小** 之间
   - 比如对于文本模块，程序默认会基于字体大小和实际预览内容返回一个大小。假如 [Text] 组的这个值设置为了 0.9，程序将不再基于内容动态计算，而是每次返回同一个值： 0.9 \* 屏幕大小。
+- `audio_extra_support`: 同 [Media - extra_support]
+- `video_extra_support`: 同 [Media - extra_support]
 - `exclude`: 用于排除内置文件类型的预览
   - 大小写不敏感，多个后缀名用逗号分隔：`exclude = xps, eps`
   - 设置成功后，在 **设置 > 类型** 中不显示该后缀名，并且在预览时不会加载该类型的文件
@@ -70,12 +72,12 @@
 
 ##### [Image]
 
+- `raw_extra_support`: 同 [Media - extra_support]
 - `max_read_size`: 文件大小阈值，当文件大小大于此值，程序仅加载预览大小（当前可显示的宽和高），不会加载完整的图片大小
-- `use_internal_exif_reader`：用于读取 jpg 的元数据，当脚本模块安装 exif 后，功能会重复，可将此字段设置为 false 关闭内置 exif 功能
+- `use_internal_exif_reader`：如果你已经通过脚本安装了 `exiftool`，可以将此字段设为 `false` 以关闭内置元数据读取，避免属性面板出现重复信息
 - `accelerate`: 是否开启硬件加速渲染
 - `minimap_scale`: 缩略图内容缩放系数，范围为 [0.5, 2.0]，默认为 1.0
 - `window_size`： 同 [Media - window_size]
-- `raw_extra_support`: 同 [PDF - extra_support]
 - `exclude`: 同 [Media - exclude]
 
 ##### [WebView]
@@ -95,4 +97,3 @@
 ##### [SystemViewer]
 
 - `exclude`: 同 [Media - exclude]，用于排除通过系统预览器（Windows 预览窗格组件）渲染的后缀名
-

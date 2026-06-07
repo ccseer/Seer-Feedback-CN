@@ -8,6 +8,7 @@
 - [⚙️ 自定义配置文件](user-ini.md)
 - [🔑 激活相关问题](activation-issues.md)
 - [📜 脚本功能](script-usage.md)
+- [🧾 编写自定义脚本](writing-custom-scripts.md)
 - [📂 自定义配置文件路径](custom-config-path.md)
 - [📎 杂项](misc.md)
 - [🚩 更新日志](changelog/README.md)
